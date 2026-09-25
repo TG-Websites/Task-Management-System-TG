@@ -2,7 +2,7 @@
 
 import { useEffect, useState, type FormEvent } from "react";
 import { useParams } from "next/navigation";
-import { UserPlus, X } from "lucide-react";
+import { UserPlus } from "lucide-react";
 import { apiGet, apiPatch, apiPost, ApiError } from "@/lib/api";
 import { useAuth } from "@/context/AuthContext";
 import { AssetsPanel } from "@/components/AssetsPanel";

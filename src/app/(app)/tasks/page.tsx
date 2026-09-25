@@ -535,10 +535,10 @@ function NewTaskForm({
           </p>
         )}
         {clientHasNoContentItem && (
-          <p className="text-xs text-orange-600 sm:col-span-6">
-            This client doesn't have a content item yet, so this task will still be created as internal —
-            add a content item for them from the Calendar page for it to show up under their name.
-          </p>
+         <p className="text-xs text-orange-600 sm:col-span-6">
+  This client doesn&apos;t have a content item yet, so this task will still be created as internal —
+  add a content item for them from the Calendar page for it to show up under their name.
+</p>
         )}
         {error && <p className="rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700 sm:col-span-6">{error}</p>}
       </form>

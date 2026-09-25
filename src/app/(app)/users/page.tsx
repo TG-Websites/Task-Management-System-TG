@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
-import { UserPlus, Users, Mail, Copy, Check, ChevronDown, UserCog } from "lucide-react";
+import { Users, Mail, Copy, Check, ChevronDown, UserCog } from "lucide-react";
 import { apiGet, apiPost, ApiError } from "@/lib/api";
 import type { Client, WorkspaceUser } from "@/lib/types";
 import { ROLE_LABELS, type Role } from "@/context/AuthContext";
